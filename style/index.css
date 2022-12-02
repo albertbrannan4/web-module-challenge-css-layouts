@@ -73,7 +73,6 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
 header{
     display: flex;
     justify-content: center;
@@ -165,4 +164,31 @@ footer a{
     color: #000;
     display: inline-block;
     width: 7rem;
+}
+
+.socials{
+  text-decoration: none;
+  border:0;
+  background-color: grey;
+  display: inline-block;
+  width: 20px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  #intro{
+    flex-direction: column;
+   
+  }
+  #intro div{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #intro #introimg{
+    padding: 5%;
+}
+
 }
